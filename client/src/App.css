@@ -27,3 +27,75 @@
   font-size: 5.77em;
   font-weight: normal;
 }
+
+.button_hold{
+  display:flex;
+  width:80%;
+  margin:auto;
+  justify-content:space-around;}
+
+.clapper {
+  background-color: #111;
+  height: 80px;
+  width: 100px;
+  position: relative;
+}
+.clapper > div {
+  background: repeating-linear-gradient(135deg, #111 0%, #111 10%, #fff 10%, #fff 20%);
+  height: 10px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+}
+.clapper > div:nth-of-type(1) {
+  background: repeating-linear-gradient(-135deg, #fff 0%, #fff 10%, #111 10%, #111 20%);
+  top: -10px;
+}
+
+.home button{
+  background:transparent;
+  /* width:33%; */
+  padding:2%;
+  /* font-size:2.5em; */
+  margin:auto;
+  margin-top:30%;
+  display:block;
+  border-top-color:rgb(0, 204, 255);
+  border-left-color:rgb(0, 204, 255);
+  border-right-color:rgb(0, 154, 205);
+  border-bottom-color:rgb(0, 154, 205);
+  color:rgb(0,204,255)
+}
+
+.clapper-open {
+  animation-name: open;
+  transform-origin: left;
+  animation-duration: .25s;
+  animation-timing-function: ease-out;
+  animation-direction: forwards;
+  animation-fill-mode:forwards;
+}
+
+.clapper-close {
+  animation-name: close;
+  transform-origin: left;
+  animation-duration: .125s;
+  animation-timing-function: ease-out;
+  animation-direction: forwards;
+  animation-fill-mode:forwards;
+}
+
+@keyframes open {
+  to {
+    transform: rotate(-80deg);
+  }
+}
+
+@keyframes close {
+  from {
+    transform: rotate(-80deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
