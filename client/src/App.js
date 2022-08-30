@@ -14,12 +14,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/testing">
-            <h1>Test Route</h1>
-          </Route>
-          <Route path="/">
-            <h1>Page Count: {count}</h1>
-          </Route>
+          <Route path="/testing" element={<h1>Test Route</h1>}/>
+          <Route path="/" element={<h1>Page Count: {count}</h1>}/>
         </Routes>
       </div>
     </BrowserRouter>
