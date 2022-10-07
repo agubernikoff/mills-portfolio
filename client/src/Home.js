@@ -1,17 +1,23 @@
-import React,{useRef} from "react";
+import React, { useRef } from "react";
 import mills_intro from "./Backdrop.jpeg";
+import Navbar from "./Navbar";
 
 function Home() {
-  const top=useRef(null)
-  const top2=useRef(null)
+  const top = useRef(null);
+  const top2 = useRef(null);
 
-  function open(ref){ref.current.className="clapper-open"}
-  function close(ref){ref.current.className='clapper-close'}
+  function open(ref) {
+    ref.current.className = "clapper-open";
+  }
+  function close(ref) {
+    ref.current.className = "clapper-close";
+  }
   return (
     <div className="home">
+      <Navbar />
       <h1 className="max_head">MAX MILLSTEIN</h1>
       <img src={mills_intro} />
-      <div className="button_hold">
+      {/* <div className="button_hold">
         <div class='clapper'>
           <div ref={top}></div>
           <div></div>
@@ -22,7 +28,7 @@ function Home() {
           <div></div>
           <button onMouseEnter={()=>open(top2)} onMouseLeave={()=>close(top2)}>something else</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
