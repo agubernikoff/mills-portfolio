@@ -181,7 +181,7 @@
   display: none;
 }
 .topnav div.icon {
-  float: right;
+  /* float: right; */
   display: block;
 }
 
@@ -190,10 +190,11 @@
 .topnav.responsive {
   position: relative;
 }
-.topnav.responsive a.icon {
+.topnav.responsive .icon {
   position: relative;
 }
-.topnav.responsive a {
+.topnav.responsive a,
+.icon {
   float: none;
   display: block;
   text-align: right;
