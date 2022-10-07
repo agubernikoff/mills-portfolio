@@ -14,23 +14,20 @@ function Navbar() {
   return (
     <div id="navbar">
       <div className="topnav" id="myTopnav">
-        <a to="javascript:void(0);" className="icon" onClick={myFunction}>
+        <div className="icon" onClick={myFunction}>
           <i className="fa fa-bars"></i>
-        </a>
+        </div>
         <NavLink onClick={myFunction} to="/">
           Home
         </NavLink>
         <NavLink onClick={myFunction} to="/about">
-          About Us
+          About/Contact
         </NavLink>
-        <NavLink onClick={myFunction} to="/products">
-          Products
+        <NavLink onClick={myFunction} to="/red_hook">
+          Red Hook
         </NavLink>
-        {/* <NavLink onClick={myFunction} to="/conversions">
-          Conversion Chart
-        </NavLink> */}
-        <NavLink onClick={myFunction} to="/contact">
-          Contact
+        <NavLink onClick={myFunction} to="/glacial_ways">
+          Glacial Ways
         </NavLink>
       </div>
     </div>

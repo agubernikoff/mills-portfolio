@@ -105,7 +105,7 @@
 @keyframes open {
   to {
     transform: rotate(-80deg);
-    transform-origin:bottom left;
+    transform-origin: bottom left;
   }
 }
 
@@ -139,7 +139,8 @@
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a,
+.icon {
   float: right;
   display: block;
   color: black;
@@ -151,7 +152,8 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a:hover,
+.icon:hover {
   background-color: transparent;
   color: grey;
   font-family: serif;
@@ -178,7 +180,7 @@
 .topnav a {
   display: none;
 }
-.topnav a.icon {
+.topnav div.icon {
   float: right;
   display: block;
 }
