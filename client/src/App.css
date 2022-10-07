@@ -105,6 +105,7 @@
 @keyframes open {
   to {
     transform: rotate(-80deg);
+    transform-origin:bottom left;
   }
 }
 

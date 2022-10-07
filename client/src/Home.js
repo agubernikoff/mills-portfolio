@@ -21,12 +21,12 @@ function Home() {
         <div class='clapper'>
           <div ref={top}></div>
           <div></div>
-          <button onMouseEnter={()=>open(top)} onMouseLeave={()=>close(top)}>something</button>
+          <button>something</button>
         </div>
-        <div class='clapper'>
+        <div onMouseEnter={()=>open(top2)} onMouseLeave={()=>close(top2)} class='clapper'>
           <div ref={top2}></div>
           <div></div>
-          <button onMouseEnter={()=>open(top2)} onMouseLeave={()=>close(top2)}>something else</button>
+          <button>something else</button>
         </div>
       </div> */}
     </div>
