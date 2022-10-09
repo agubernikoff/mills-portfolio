@@ -14,7 +14,6 @@ function Home() {
   }
   return (
     <div className="home">
-      <Navbar />
       <h1 className="max_head">MAX MILLSTEIN</h1>
       <img src={mills_intro} />
       {/* <div className="button_hold">
