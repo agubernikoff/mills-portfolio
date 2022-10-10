@@ -111,15 +111,18 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 0;
+  align-items: center;
 }
 
 .topnav > a {
   color: black;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .topnav > a:hover {
   color: grey;
+  text-decoration: underline;
 }
 
 .poster_holder {
