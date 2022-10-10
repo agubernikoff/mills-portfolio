@@ -1,28 +1,34 @@
 import React from "react";
 import smoking from "./smoking.png";
-import frenchd from "./frenchd.jpg";
 import still1 from "./still1.png";
-import still2 from "./still1.png";
-import still3 from "./still1.png";
-import still4 from "./still1.png";
-import still5 from "./still1.png";
-import still6 from "./still1.png";
-import still7 from "./still1.png";
-import still1 from "./still1.png";
-import still1 from "./still1.png";
-import still1 from "./still1.png";
-import still1 from "./still1.png";
-import still1 from "./still1.png";
-import still1 from "./still1.png";
-import still1 from "./still1.png";
+import still2 from "./still2.png";
+import still3 from "./still3.png";
+import still4 from "./still4.png";
+import still5 from "./still5.png";
+import still6 from "./still6.png";
+import still7 from "./still7.png";
+import still8 from "./still8.png";
+import still9 from "./still9.png";
+import still10 from "./still10.png";
+import still11 from "./still11.png";
+import still12 from "./still12.png";
+import still13 from "./still13.png";
+import redhookpost from "./redhookposter.png";
 
 function RedHook() {
   return (
     <div className="redhook">
-      <h2>RED HOOK</h2>
+      {/* <h2>RED HOOK</h2> */}
       <img className="smoking_ss" src={smoking} />
       <div className="adjustment-container">
-        <h1>VIDEO PREVIEW</h1>
+        <iframe
+          title="vimeo-player"
+          src="https://player.vimeo.com/video/758069571?h=14975cae08"
+          width="640"
+          height="268"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
         <h4>
           A rockstar seeking a simpler life unexpectedly encounters his
           girlfriend’s ex boyfriend for the first time, and after it takes an
@@ -51,13 +57,22 @@ function RedHook() {
           we have an opportunity to grow. To move on. To share and revel in our
           vulnerabilities... it's all we can do
         </p>
+        <img alt="redhook" className="movie_poster" src={redhookpost} />
         <div className="stills-container">
-          <img alt="not the french dispatch" src={frenchd} />
-          <img alt="not the french dispatch" src={frenchd} />
-          <img alt="not the french dispatch" src={frenchd} />
-          <img alt="not the french dispatch" src={frenchd} />
-          <img alt="not the french dispatch" src={frenchd} />
-          <img alt="not the french dispatch" src={frenchd} />
+          <img alt="redhook" src={smoking} />
+          <img alt="redhook" src={still1} />
+          <img alt="redhook" src={still2} />
+          <img alt="redhook" src={still3} />
+          <img alt="redhook" src={still4} />
+          <img alt="redhook" src={still5} />
+          <img alt="redhook" src={still6} />
+          <img alt="redhook" src={still7} />
+          <img alt="redhook" src={still8} />
+          <img alt="redhook" src={still9} />
+          <img alt="redhook" src={still10} />
+          <img alt="redhook" src={still11} />
+          <img alt="redhook" src={still12} />
+          <img alt="redhook" src={still13} />
         </div>
       </div>
     </div>

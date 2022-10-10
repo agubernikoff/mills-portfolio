@@ -285,6 +285,19 @@
   font-weight: 1000px;
   font-size: 2em;
 }
+.adjustment-container {
+  position: relative;
+  bottom: 12em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.adjustment-container > iframe {
+  width: 90%;
+  height: 30em;
+  margin: 2em;
+}
 .adjustment-container > h4,
 .adjustment-container > p,
 .adjustment-container > h1 {
@@ -303,10 +316,7 @@
   width: 100%;
   height: 50vh;
 }
-.adjustment-container {
-  position: relative;
-  bottom: 4em;
-}
+
 .stills-container {
   width: 100%;
   display: flex;
@@ -340,3 +350,9 @@
 .footer_header {
   background-color: white;
 } */
+
+.movie_poster {
+  width: 50%;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
