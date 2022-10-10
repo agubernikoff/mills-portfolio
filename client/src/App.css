@@ -489,6 +489,6 @@
     flex-direction: column;
     align-items: center;
     font-family: "Roboto Mono", monospace;
-    height: 1;
+    height: 100%;
   }
 }
