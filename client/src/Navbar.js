@@ -1,7 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
+  console.log(location.pathname.includes("red"));
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -17,18 +19,30 @@ function Navbar() {
         <div className="icon" onClick={myFunction}>
           <i className="fa fa-bars"></i>
         </div>
-        <NavLink onClick={myFunction} to="/">
+        <NavLink
+          onClick={myFunction}
+          to="/"
+          style={location.pathname.includes("red") ? { color: "white" } : null}
+        >
           Home
         </NavLink>
-        <NavLink onClick={myFunction} to="/about">
+        <NavLink
+          onClick={myFunction}
+          to="/about"
+          style={location.pathname.includes("red") ? { color: "white" } : null}
+        >
           About/Contact
         </NavLink>
-        <NavLink onClick={myFunction} to="/red_hook">
+        <NavLink
+          onClick={myFunction}
+          to="/red_hook"
+          style={location.pathname.includes("red") ? { color: "white" } : null}
+        >
           Red Hook
         </NavLink>
-        <NavLink onClick={myFunction} to="/glacial_ways">
+        {/* <NavLink onClick={myFunction} to="/glacial_ways">
           Glacial Ways
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );

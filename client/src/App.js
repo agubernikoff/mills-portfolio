@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/red_hook" element={<RedHook />} />
-          <Route path="/glacial_ways" element={<GlacialWays />} />
+          {/* <Route path="/glacial_ways" element={<GlacialWays />} /> */}
         </Routes>
       </div>
     </BrowserRouter>
