@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
 import glacial from "./glacialposter.png";
 import redhook from "./redhookposter.png";
 import Navbar from "./Navbar";
@@ -18,11 +19,15 @@ function Home() {
       {/* <h1 className="max_head">MAX MILLSTEIN</h1> */}
       <div className="poster_holder">
         <div className="item">
-          <img src={redhook} className="poster" />
+          <NavLink to="/red_hook">
+            <img src={redhook} className="poster" alt="Red Hook" />
+          </NavLink>
           <span class="caption">OCTOBER 2022</span>
         </div>
         <div className="item">
-          <img src={glacial} className="poster" />
+          <NavLink to="/glacial_ways">
+            <img src={glacial} className="poster" alt="Glacial Ways" />
+          </NavLink>
           <span class="caption">FEBRUARY 2023</span>
         </div>
       </div>
