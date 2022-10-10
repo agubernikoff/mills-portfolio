@@ -1,6 +1,20 @@
 import React from "react";
 import smoking from "./smoking.png";
 import frenchd from "./frenchd.jpg";
+import still1 from "./still1.png";
+import still2 from "./still1.png";
+import still3 from "./still1.png";
+import still4 from "./still1.png";
+import still5 from "./still1.png";
+import still6 from "./still1.png";
+import still7 from "./still1.png";
+import still1 from "./still1.png";
+import still1 from "./still1.png";
+import still1 from "./still1.png";
+import still1 from "./still1.png";
+import still1 from "./still1.png";
+import still1 from "./still1.png";
+import still1 from "./still1.png";
 
 function RedHook() {
   return (
