@@ -223,6 +223,10 @@ a:hover {
   .icon {
     width: 10%;
   }
+
+  .redhook_title_img {
+    margin-bottom: -4em;
+  }
 }
 
 .redhook {
@@ -234,7 +238,6 @@ a:hover {
 .redhook_title_img {
   width: 40%;
   margin-top: 1em;
-  margin-bottom: -4em;
 }
 .redhook > h2 {
   position: absolute;
@@ -249,6 +252,7 @@ a:hover {
   width: 90%;
   height: 30em;
   margin: 2em;
+  margin-bottom: -4%;
 }
 .redhook > h4,
 .redhook > p,
