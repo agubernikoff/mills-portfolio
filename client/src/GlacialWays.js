@@ -1,7 +1,12 @@
 import React from "react";
 
 function GlacialWays() {
-  return <div>GlacialWays</div>;
+  return (
+    <div className="glacial">
+      <label>Password: </label>
+      <input></input>
+    </div>
+  );
 }
 
 export default GlacialWays;
