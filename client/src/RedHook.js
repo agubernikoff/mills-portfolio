@@ -28,7 +28,7 @@ function RedHook() {
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <h4>
+      <h4 className="redhook_desc">
         A rockstar seeking a simpler life unexpectedly encounters his
         girlfriend’s ex boyfriend for the first time, and after it takes an
         emotional turn, realizes he has to choose between his vocation or love.
