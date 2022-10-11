@@ -1,4 +1,5 @@
 import React from "react";
+import redhooktitle from "./redhook-title.png";
 import smoking from "./smoking.png";
 import still1 from "./still1.png";
 import still2 from "./still2.png";
@@ -18,7 +19,7 @@ import redhookpost from "./redhookposter.png";
 function RedHook() {
   return (
     <div className="redhook">
-      {/* <h2>RED HOOK</h2> */}
+      <img className="redhook_title_img" src={redhooktitle} alt="Red Hook" />
       <iframe
         title="vimeo-player"
         src="https://player.vimeo.com/video/758069571?h=14975cae08"
