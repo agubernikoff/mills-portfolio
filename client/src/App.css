@@ -126,6 +126,10 @@ p {
   margin-bottom: -2%;
 }
 
+.subhead {
+  margin-top: -2%;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   display: flex;

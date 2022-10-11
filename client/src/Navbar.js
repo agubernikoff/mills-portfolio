@@ -19,7 +19,7 @@ function Navbar() {
         </NavLink>
         <div>
           <h1 className="max_nav_bar">MAX MILLSTEIN</h1>
-          <h3>WRITER · DIRECTOR</h3>
+          <h3 className="subhead">WRITER · DIRECTOR</h3>
         </div>
         <NavLink style={activeStyle} to="/red_hook">
           Red Hook
