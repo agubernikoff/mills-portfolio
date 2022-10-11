@@ -223,10 +223,6 @@ a:hover {
   .icon {
     width: 10%;
   }
-
-  .redhook_title_img {
-    margin-bottom: -4em;
-  }
 }
 
 .redhook {
@@ -251,8 +247,7 @@ a:hover {
 .redhook > iframe {
   width: 90%;
   height: 30em;
-  margin: 2em;
-  margin-bottom: -4%;
+  margin: 0em;
 }
 .redhook > h4,
 .redhook > p,
