@@ -27,7 +27,8 @@ h3 {
   font-size: var(--h3);
 }
 a,
-p {
+p,
+span {
   font-size: var(--reg-font);
 }
 
@@ -138,13 +139,13 @@ p {
   align-items: center;
 }
 
-.topnav > a {
+a {
   color: black;
   cursor: pointer;
   text-decoration: none;
 }
 
-.topnav > a:hover {
+a:hover {
   color: grey;
   text-decoration: underline;
 }
@@ -168,6 +169,15 @@ p {
 .max_text {
   width: 75%;
   margin: auto;
+}
+.icon-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.icon {
+  width: 5%;
+  margin: 0 0.5em;
 }
 
 @media all and (min-width: 620px) {
@@ -203,6 +213,12 @@ p {
   .max_text > h1:first-of-type {
     margin-top: 0;
   }
+  .socials-container {
+    display: flex;
+  }
+  .icon {
+    width: 10%;
+  }
 }
 
 .redhook {
@@ -210,6 +226,10 @@ p {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+}
+.redhook_title_img {
+  width: 40%;
+  margin-top: 1em;
 }
 .redhook > h2 {
   position: absolute;
