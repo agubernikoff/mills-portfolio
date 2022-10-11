@@ -137,20 +137,6 @@ p {
   color: grey;
   text-decoration: underline;
 }
-@media all and (min-width: 620px) {
-  .poster_holder {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 40%;
-  }
-}
 .item > p {
   margin-top: 0;
 }
@@ -173,12 +159,37 @@ p {
   margin: auto;
 }
 
-.work_together {
-  background-color: black;
-  color: white;
-  width: 55%;
-  border-radius: 30px;
+@media all and (min-width: 620px) {
+  .poster_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .biopic {
+    width: 35%;
+    height: 100%;
+    margin: 0 1em;
+  }
+  .max_text {
+    width: 50%;
+    margin: auto;
+  }
+  .max_text > h1:first-of-type {
+    margin-top: 0;
+  }
 }
+
 .redhook {
   display: flex;
   flex-wrap: wrap;
