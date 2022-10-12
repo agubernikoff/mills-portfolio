@@ -56,6 +56,7 @@ function RedHook() {
         vulnerabilities... it's all we can do
       </p>
       <img alt="redhook" className="movie_poster" src={redhookpost} />
+      <h1>STILLS</h1>
       <div className="stills-container">
         <img alt="redhook" src={smoking} />
         <img alt="redhook" src={still1} />

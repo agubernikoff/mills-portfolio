@@ -215,7 +215,9 @@ a:hover {
     margin: 0 auto;
   }
   .max_text > p {
-    font-size: 1em;
+    font-size: 1.2em;
+    width: 75%;
+    margin: auto;
   }
   .max_text > h1:first-of-type {
     margin-top: 0;
@@ -315,8 +317,7 @@ a:hover {
 
 .movie_poster {
   width: 50%;
-  margin-top: 2em;
-  margin-bottom: 0.5em;
+  margin: 2em auto;
 }
 
 @media screen and (max-width: 660px) {

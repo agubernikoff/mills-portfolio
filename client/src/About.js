@@ -26,7 +26,7 @@ function About() {
               of film, Max is able to bring his grandiose visions into fruition.
             </p>
 
-            <h1>LETS WORK TOGETHER</h1>
+            <h1>LET'S WORK TOGETHER</h1>
             <div className="socials-container">
               <a
                 href="mailto:maxmillstein1@gmail.com"
