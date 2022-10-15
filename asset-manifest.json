@@ -5,13 +5,13 @@
     "main.js.map": "/mills-portfolio/static/js/main.5dcc63b5.chunk.js.map",
     "runtime-main.js": "/mills-portfolio/static/js/runtime-main.1869de65.js",
     "runtime-main.js.map": "/mills-portfolio/static/js/runtime-main.1869de65.js.map",
-    "static/js/2.8aabe7a6.chunk.js": "/mills-portfolio/static/js/2.8aabe7a6.chunk.js",
-    "static/js/2.8aabe7a6.chunk.js.map": "/mills-portfolio/static/js/2.8aabe7a6.chunk.js.map",
+    "static/js/2.775c4ef1.chunk.js": "/mills-portfolio/static/js/2.775c4ef1.chunk.js",
+    "static/js/2.775c4ef1.chunk.js.map": "/mills-portfolio/static/js/2.775c4ef1.chunk.js.map",
     "static/js/3.f77d7065.chunk.js": "/mills-portfolio/static/js/3.f77d7065.chunk.js",
     "static/js/3.f77d7065.chunk.js.map": "/mills-portfolio/static/js/3.f77d7065.chunk.js.map",
     "index.html": "/mills-portfolio/index.html",
     "static/css/main.0004c0c2.chunk.css.map": "/mills-portfolio/static/css/main.0004c0c2.chunk.css.map",
-    "static/js/2.8aabe7a6.chunk.js.LICENSE.txt": "/mills-portfolio/static/js/2.8aabe7a6.chunk.js.LICENSE.txt",
+    "static/js/2.775c4ef1.chunk.js.LICENSE.txt": "/mills-portfolio/static/js/2.775c4ef1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/mills-portfolio/static/media/AdBhashitha.0498b14f.ttf",
     "static/media/biopic.d940b447.png": "/mills-portfolio/static/media/biopic.d940b447.png",
     "static/media/glacialposter.86b9e49c.png": "/mills-portfolio/static/media/glacialposter.86b9e49c.png",
@@ -35,7 +35,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1869de65.js",
-    "static/js/2.8aabe7a6.chunk.js",
+    "static/js/2.775c4ef1.chunk.js",
     "static/css/main.0004c0c2.chunk.css",
     "static/js/main.5dcc63b5.chunk.js"
   ]
