@@ -13,13 +13,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/mills-portfolio/" element={<Home />} />
-          <Route path="/mills-portfolio/about" element={<About />} />
-          <Route path="/mills-portfolio/red_hook" element={<RedHook />} />
-          <Route
-            path="/mills-portfolio/glacial_ways"
-            element={<GlacialWays />}
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/red_hook" element={<RedHook />} />
+          <Route path="/glacial_ways" element={<GlacialWays />} />
         </Routes>
       </div>
     </BrowserRouter>
