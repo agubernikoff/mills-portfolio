@@ -19,13 +19,13 @@ function Home() {
       {/* <h1 className="max_head">MAX MILLSTEIN</h1> */}
       <div className="poster_holder">
         <div className="item">
-          <NavLink to="/red_hook">
+          <NavLink to="/mills-portfolio/red_hook">
             <img src={redhook} className="poster" alt="Red Hook" />
           </NavLink>
           <p class="caption">OCTOBER 2022</p>
         </div>
         <div className="item">
-          <NavLink to="/glacial_ways">
+          <NavLink to="/mills-portfolio/glacial_ways">
             <img src={glacial} className="poster" alt="Glacial Ways" />
           </NavLink>
           <p class="caption">FEBRUARY 2023</p>
