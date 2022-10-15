@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://agubernikoff.github.io/mills_portfolio",
+  "homepage": "https://agubernikoff.github.io/mills-portfolio",
   "private": true,
   "engines": {
     "node": "16.x"
