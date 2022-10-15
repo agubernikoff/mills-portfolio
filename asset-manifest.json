@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/mills_portfolio/static/css/main.4dcea490.chunk.css",
+    "main.js": "/mills_portfolio/static/js/main.5dcc63b5.chunk.js",
+    "main.js.map": "/mills_portfolio/static/js/main.5dcc63b5.chunk.js.map",
+    "runtime-main.js": "/mills_portfolio/static/js/runtime-main.ab231a98.js",
+    "runtime-main.js.map": "/mills_portfolio/static/js/runtime-main.ab231a98.js.map",
+    "static/js/2.8aabe7a6.chunk.js": "/mills_portfolio/static/js/2.8aabe7a6.chunk.js",
+    "static/js/2.8aabe7a6.chunk.js.map": "/mills_portfolio/static/js/2.8aabe7a6.chunk.js.map",
+    "static/js/3.f77d7065.chunk.js": "/mills_portfolio/static/js/3.f77d7065.chunk.js",
+    "static/js/3.f77d7065.chunk.js.map": "/mills_portfolio/static/js/3.f77d7065.chunk.js.map",
+    "index.html": "/mills_portfolio/index.html",
+    "static/css/main.4dcea490.chunk.css.map": "/mills_portfolio/static/css/main.4dcea490.chunk.css.map",
+    "static/js/2.8aabe7a6.chunk.js.LICENSE.txt": "/mills_portfolio/static/js/2.8aabe7a6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mills_portfolio/static/media/AdBhashitha.0498b14f.ttf",
+    "static/media/biopic.d940b447.png": "/mills_portfolio/static/media/biopic.d940b447.png",
+    "static/media/glacialposter.86b9e49c.png": "/mills_portfolio/static/media/glacialposter.86b9e49c.png",
+    "static/media/ig.776d16d0.png": "/mills_portfolio/static/media/ig.776d16d0.png",
+    "static/media/redhook-title.7bddcea6.png": "/mills_portfolio/static/media/redhook-title.7bddcea6.png",
+    "static/media/redhookposter.71e87886.png": "/mills_portfolio/static/media/redhookposter.71e87886.png",
+    "static/media/smoking.b3adc7ff.png": "/mills_portfolio/static/media/smoking.b3adc7ff.png",
+    "static/media/still1.a7bdd841.png": "/mills_portfolio/static/media/still1.a7bdd841.png",
+    "static/media/still10.c3a6f76f.png": "/mills_portfolio/static/media/still10.c3a6f76f.png",
+    "static/media/still11.0c57c806.png": "/mills_portfolio/static/media/still11.0c57c806.png",
+    "static/media/still12.47cd8276.png": "/mills_portfolio/static/media/still12.47cd8276.png",
+    "static/media/still13.62db66af.png": "/mills_portfolio/static/media/still13.62db66af.png",
+    "static/media/still2.836483c0.png": "/mills_portfolio/static/media/still2.836483c0.png",
+    "static/media/still3.64cc1808.png": "/mills_portfolio/static/media/still3.64cc1808.png",
+    "static/media/still4.eae9fbac.png": "/mills_portfolio/static/media/still4.eae9fbac.png",
+    "static/media/still5.d3612742.png": "/mills_portfolio/static/media/still5.d3612742.png",
+    "static/media/still6.6e6fd71a.png": "/mills_portfolio/static/media/still6.6e6fd71a.png",
+    "static/media/still7.32afe399.png": "/mills_portfolio/static/media/still7.32afe399.png",
+    "static/media/still8.ef9da93a.png": "/mills_portfolio/static/media/still8.ef9da93a.png",
+    "static/media/still9.addbf903.png": "/mills_portfolio/static/media/still9.addbf903.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab231a98.js",
+    "static/js/2.8aabe7a6.chunk.js",
+    "static/css/main.4dcea490.chunk.css",
+    "static/js/main.5dcc63b5.chunk.js"
+  ]
+}
