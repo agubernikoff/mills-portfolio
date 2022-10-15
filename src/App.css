@@ -161,6 +161,8 @@ a:hover {
 }
 
 .aboutpage {
+  width: 90%;
+  margin: auto;
   text-align: center;
 }
 .biopic {
@@ -216,7 +218,6 @@ a:hover {
   }
   .max_text > p {
     font-size: 1.2em;
-    width: 75%;
     margin: auto;
   }
   .max_text > h1:first-of-type {
