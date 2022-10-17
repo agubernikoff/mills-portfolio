@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mills-portfolio">
       <div className="App">
         <Navbar />
         <Routes>
