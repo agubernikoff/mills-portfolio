@@ -22,13 +22,13 @@ function Home() {
           <NavLink to="/red_hook">
             <img src={redhook} className="poster" alt="Red Hook" />
           </NavLink>
-          <p class="caption">OCTOBER 2022</p>
+          <p className="caption">OCTOBER 2022</p>
         </div>
         <div className="item">
           <NavLink to="/glacial_ways">
             <img src={glacial} className="poster" alt="Glacial Ways" />
           </NavLink>
-          <p class="caption">FEBRUARY 2023</p>
+          <p className="caption">FEBRUARY 2023</p>
         </div>
       </div>
 

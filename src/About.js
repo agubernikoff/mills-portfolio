@@ -2,7 +2,7 @@ import React from "react";
 import biopic from "./biopic.png";
 import email from "./email.png";
 import ig from "./ig.png";
-import Footer from "./Footer";
+import vimeo from "./vimeo.png";
 
 function About() {
   return (
@@ -25,24 +25,6 @@ function About() {
               deadlines. Understanding the practicality and collaborative nature
               of film, Max is able to bring his grandiose visions into fruition.
             </p>
-
-            <h1>LET'S WORK TOGETHER</h1>
-            <div className="socials-container">
-              <a
-                href="mailto:maxmillstein1@gmail.com"
-                className="icon-container"
-              >
-                <img className="icon" src={email} alt="email" />
-                <span>maxmillstein1@gmail.com</span>
-              </a>
-              <a
-                href="https://instagram.com/maxwell_millz?igshid=YmMyMTA2M2Y="
-                className="icon-container"
-              >
-                <img className="icon" src={ig} alt="instagram" />
-                <span>@maxwell_millz</span>
-              </a>
-            </div>
           </div>
         </div>
       </div>

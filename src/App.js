@@ -6,12 +6,13 @@ import About from "./About";
 import RedHook from "./RedHook";
 import GlacialWays from "./GlacialWays";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <BrowserRouter basename="/mills-portfolio">
-      <div className="App">
-        <Navbar />
+    <div className="App">
+      <Navbar />
+      <div className="content-container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -19,7 +20,8 @@ function App() {
           <Route path="/glacial_ways" element={<GlacialWays />} />
         </Routes>
       </div>
-    </BrowserRouter>
+      <Footer />
+    </div>
   );
 }
 
