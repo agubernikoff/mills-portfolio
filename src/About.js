@@ -3,6 +3,7 @@ import biopic from "./biopic.png";
 import email from "./email.png";
 import ig from "./ig.png";
 import vimeo from "./vimeo.png";
+import linkedin from "./linkedin.png";
 
 function About() {
   return (
@@ -25,10 +26,38 @@ function About() {
               deadlines. Understanding the practicality and collaborative nature
               of film, Max is able to bring his grandiose visions into fruition.
             </p>
+            <h1>LET'S WORK TOGETHER</h1>
+
+            <a
+              href="mailto:maxmillstein1@gmail.com"
+              className="about-icon-container"
+            >
+              <img className="about-icon" src={email} alt="email" />
+              <span>maxmillstein1@gmail.com</span>
+            </a>
+            <div>
+              <a
+                href="https://instagram.com/maxwell_millz?igshid=YmMyMTA2M2Y="
+                className="icon-container"
+              >
+                <img className="about-icon" src={ig} alt="instagram" />
+              </a>
+              <a
+                href="https://vimeo.com/user167894298"
+                className="icon-container"
+              >
+                <img className="about-icon" src={vimeo} alt="vimeo" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/max-millstein-b399b7103/"
+                className="icon-container"
+              >
+                <img className="about-icon" src={linkedin} alt="linkedin" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }

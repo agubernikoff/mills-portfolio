@@ -190,6 +190,16 @@ a:hover {
 .icon {
   width: 100%;
 }
+.about-icon-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.about-icon {
+  width: 7%;
+}
 
 @media all and (min-width: 620px) {
   .poster_holder {
