@@ -198,7 +198,10 @@ a:hover {
   margin-bottom: 1em;
 }
 .about-icon {
-  width: 7%;
+  width: 5%;
+}
+.about-icon-container > span {
+  margin: 0.5em;
 }
 
 @media all and (min-width: 620px) {
