@@ -15,7 +15,7 @@ function About() {
           <div className="max_text">
             <h1>MEET MAX</h1>
             <p>
-              Max Millstein is writer/director living in Brooklyn, NY. His
+              Max Millstein is a writer/director living in Brooklyn, NY. His
               directorial debut short film titled Red Hook hit the festival
               circuit in October 2022. He is currently in post-production with
               his second short film -- a whimsical and evocative climate change
