@@ -56,27 +56,47 @@ function RedHook() {
         vulnerabilities... it's all we can do
       </p> */}
       <div>
-        <li>
-          Award Winner (Best Indie Short), Oniros Film Awards® - New York, 2022
-        </li>
-        <li>
-          Finalist (Best 1st Time Director), New York International Film Awards™
-          - NYIFA, 2022
-        </li>
-        <li>Award Nominee (Best Original Screenplay), Cannes Short, 2022</li>
-        <li>
-          Officially Selected (First Time Director), Paris Film Awards, 2022
-        </li>
-        <li>Award Winner (First time Director), London Movie Awards, 2022</li>
-        <li>Award Winner (First Time Director), Milan Gold Awards, 2022</li>
-        <li>
-          Award Nominee (Best Original Screenplay), IndieX Film Fest, 2022
-        </li>
-        <li>Award Nominee (Best Acting Duo), IndieX Film Fest, 2022</li>
-        <li>
-          Award Winner (Debut Filmmaker of Short Film), Golden Lion
-          International Film Festival (GLIFF), 2022
-        </li>
+        <ul style={{ textAlign: "center", listStyleType: "none" }}>
+          <em>
+            <li>
+              Award Winner (Best Indie Short),{" "}
+              <strong>Oniros Film Awards® - New York</strong>, 2022
+            </li>
+            <li>
+              Finalist (Best 1st Time Director),{" "}
+              <strong>New York International Film Awards™ - NYIFA</strong>, 2022
+            </li>
+            <li>
+              Award Nominee (Best Original Screenplay),{" "}
+              <strong>Cannes Short</strong>, 2022
+            </li>
+            <li>
+              Officially Selected (First Time Director),{" "}
+              <strong>Paris Film Awards</strong>, 2022
+            </li>
+            <li>
+              Award Winner (First time Director),{" "}
+              <strong>London Movie Awards</strong>, 2022
+            </li>
+            <li>
+              Award Winner (First Time Director),{" "}
+              <strong>Milan Gold Awards</strong>, 2022
+            </li>
+            <li>
+              Award Nominee (Best Original Screenplay),{" "}
+              <strong>IndieX Film Fest</strong>, 2022
+            </li>
+            <li>
+              Award Nominee (Best Acting Duo), <strong>IndieX Film Fest</strong>
+              , 2022
+            </li>
+            <li>
+              Award Winner (Debut Filmmaker of Short Film),{" "}
+              <strong>Golden Lion International Film Festival (GLIFF)</strong>,
+              2022
+            </li>
+          </em>
+        </ul>
       </div>
       <div className="credits">
         <p>Written and Directed by Max Millstein</p>

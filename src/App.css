@@ -28,8 +28,15 @@ h3 {
 }
 a,
 p,
-span {
+span,
+li {
   font-size: var(--reg-font);
+}
+li {
+  margin: 1em auto;
+}
+strong {
+  font-weight: 999;
 }
 
 .content-container {
