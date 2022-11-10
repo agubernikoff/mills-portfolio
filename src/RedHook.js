@@ -29,11 +29,11 @@ function RedHook() {
         allowfullscreen
       ></iframe>
       <h4 className="redhook_desc">
-        A rockstar seeking a simpler life unexpectedly encounters his
-        girlfriend’s ex boyfriend for the first time, and after it takes an
-        emotional turn, realizes he has to choose between his vocation or love.
+        After suddenly abandoning a world tour, rockstar Andrew Lane is now
+        faced with the toughest choice of his life when he runs into the one
+        person who can help or hurt him.
       </h4>
-      <h1>DIRECTORS STATEMENT</h1>
+      {/* <h1>DIRECTORS STATEMENT</h1>
       <p>
         A fascination with meeting my girlfriend's long term ex boyfriend lead
         me to the question-- what if I ran into him? What if we sat down, and
@@ -54,7 +54,42 @@ function RedHook() {
         and don't feel the need to constantly put ourselves in the best light,
         we have an opportunity to grow. To move on. To share and revel in our
         vulnerabilities... it's all we can do
-      </p>
+      </p> */}
+      <div>
+        <li>
+          Award Winner (Best Indie Short), Oniros Film Awards® - New York, 2022
+        </li>
+        <li>
+          Finalist (Best 1st Time Director), New York International Film Awards™
+          - NYIFA, 2022
+        </li>
+        <li>Award Nominee (Best Original Screenplay), Cannes Short, 2022</li>
+        <li>
+          Officially Selected (First Time Director), Paris Film Awards, 2022
+        </li>
+        <li>Award Winner (First time Director), London Movie Awards, 2022</li>
+        <li>Award Winner (First Time Director), Milan Gold Awards, 2022</li>
+        <li>
+          Award Nominee (Best Original Screenplay), IndieX Film Fest, 2022
+        </li>
+        <li>Award Nominee (Best Acting Duo), IndieX Film Fest, 2022</li>
+        <li>
+          Award Winner (Debut Filmmaker of Short Film), Golden Lion
+          International Film Festival (GLIFF), 2022
+        </li>
+      </div>
+      <div className="credits">
+        <p>Written and Directed by Max Millstein</p>
+        <p>Assistant Director: AC Smallwood </p>
+        <p>Director of Photography: Peter Pavlakis</p>
+        <p>First Assistant Camera: Alex Swickard</p>
+        <p>Gaffer: Chris Tremblay</p>
+        <p>Sound: Eamon Redpath</p>
+        <p>Editor: Joe Bastien</p>
+        <p>Color: Emily Bailey</p>
+        <p>Production Assistant: Robyn Haddad</p>
+        <p>Production Assistant: Nicholas Vuckovick</p>
+      </div>
       <img alt="redhook" className="movie_poster" src={redhookpost} />
       <h1>STILLS</h1>
       <div className="stills-container">

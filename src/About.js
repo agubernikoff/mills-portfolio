@@ -42,12 +42,12 @@ function About() {
               >
                 <img className="about-icon" src={ig} alt="instagram" />
               </a>
-              <a
+              {/* <a
                 href="https://vimeo.com/user167894298"
                 className="icon-container"
               >
                 <img className="about-icon" src={vimeo} alt="vimeo" />
-              </a>
+              </a> */}
               <a
                 href="https://www.linkedin.com/in/max-millstein-b399b7103/"
                 className="icon-container"
