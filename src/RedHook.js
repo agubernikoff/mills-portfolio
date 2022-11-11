@@ -28,11 +28,13 @@ function RedHook() {
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <h4 className="redhook_desc">
-        After suddenly abandoning a world tour, rockstar Andrew Lane is now
-        faced with the toughest choice of his life when he runs into the one
-        person who can help or hurt him.
-      </h4>
+      <h3 className="redhook_desc">
+        <strong>
+          After suddenly abandoning a world tour, rockstar Andrew Lane is now
+          faced with the toughest choice of his life when he runs into the one
+          person who can help or hurt him.
+        </strong>
+      </h3>
       {/* <h1>DIRECTORS STATEMENT</h1>
       <p>
         A fascination with meeting my girlfriend's long term ex boyfriend lead
@@ -55,6 +57,7 @@ function RedHook() {
         we have an opportunity to grow. To move on. To share and revel in our
         vulnerabilities... it's all we can do
       </p> */}
+      <br></br>
       <div>
         <ul style={{ textAlign: "center", listStyleType: "none" }}>
           <em>
@@ -98,7 +101,11 @@ function RedHook() {
           </em>
         </ul>
       </div>
-      <div className="credits">
+      <div
+        className="credits"
+        style={{ textAlign: "center", listStyleType: "none" }}
+      >
+        <h1>CREW</h1>
         <p>Written and Directed by Max Millstein</p>
         <p>Assistant Director: AC Smallwood </p>
         <p>Director of Photography: Peter Pavlakis</p>
