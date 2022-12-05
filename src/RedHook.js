@@ -99,7 +99,7 @@ function RedHook() {
           </p>
         </em>
       </div>
-      <div
+      {/* <div
         className="credits"
         style={{ textAlign: "center", listStyleType: "none" }}
       >
@@ -114,7 +114,7 @@ function RedHook() {
         <p>Color: Emily Bailey</p>
         <p>Production Assistant: Robyn Haddad</p>
         <p>Production Assistant: Nicholas Vuckovick</p>
-      </div>
+      </div> */}
       <img alt="redhook" className="movie_poster" src={redhookpost} />
       <h1>STILLS</h1>
       <div className="stills-container">
