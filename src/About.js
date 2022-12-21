@@ -2,7 +2,7 @@ import React from "react";
 import biopic from "./biopic.png";
 import email from "./email.png";
 import ig from "./ig.png";
-import vimeo from "./vimeo.png";
+import imdb from "./imdb.png";
 import linkedin from "./linkedin.png";
 
 function About() {
@@ -42,12 +42,12 @@ function About() {
               >
                 <img className="about-icon" src={ig} alt="instagram" />
               </a>
-              {/* <a
-                href="https://vimeo.com/user167894298"
+              <a
+                href="https://www.imdb.com/name/nm14213652/"
                 className="icon-container"
               >
-                <img className="about-icon" src={vimeo} alt="vimeo" />
-              </a> */}
+                <img className="about-icon" src={imdb} alt="imdb" />
+              </a>
               <a
                 href="https://www.linkedin.com/in/max-millstein-b399b7103/"
                 className="icon-container"
