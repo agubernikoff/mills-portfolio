@@ -4,8 +4,10 @@ import email from "./email.png";
 import ig from "./ig.png";
 import imdb from "./imdb.png";
 import linkedin from "./linkedin.png";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const nav = useNavigate();
   return (
     <div>
       <div className="aboutpage">
@@ -36,24 +38,32 @@ function About() {
               <span>maxmillstein1@gmail.com</span>
             </a>
             <div>
-              <a
-                href="https://instagram.com/maxwell_millz?igshid=YmMyMTA2M2Y="
-                className="icon-container"
-              >
-                <img className="about-icon" src={ig} alt="instagram" />
-              </a>
-              <a
-                href="https://www.imdb.com/name/nm14213652/"
-                className="icon-container"
-              >
-                <img className="about-icon" src={imdb} alt="imdb" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/max-millstein-b399b7103/"
-                className="icon-container"
-              >
-                <img className="about-icon" src={linkedin} alt="linkedin" />
-              </a>
+              <img
+                onClick={() =>
+                  (window.location =
+                    "https://instagram.com/maxwell_millz?igshid=YmMyMTA2M2Y=")
+                }
+                className="about-icon"
+                src={ig}
+                alt="instagram"
+              />
+              <img
+                onClick={() =>
+                  (window.location = "https://www.imdb.com/name/nm14213652/")
+                }
+                style={{ width: "10%", cursor: "pointer" }}
+                src={imdb}
+                alt="imdb"
+              />
+              <img
+                className="about-icon"
+                onClick={() =>
+                  (window.location =
+                    "https://www.linkedin.com/in/max-millstein-b399b7103/")
+                }
+                src={linkedin}
+                alt="linkedin"
+              />
             </div>
           </div>
         </div>

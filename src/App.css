@@ -207,6 +207,8 @@ a:hover {
 }
 .about-icon {
   width: 5%;
+  margin: 1em;
+  cursor: pointer;
 }
 .about-icon-container > span {
   margin: 0.5em;
@@ -333,6 +335,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .movie_poster {
