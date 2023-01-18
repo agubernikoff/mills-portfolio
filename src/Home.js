@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import glacial from "./glacialposter.png";
-import redhook from "./redhookposter.png";
+import redhook from "./redhooktyler.png";
 import Navbar from "./Navbar";
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
           <NavLink to="/glacial_ways">
             <img src={glacial} className="poster" alt="Glacial Ways" />
           </NavLink>
-          <p className="caption">FEBRUARY 2023</p>
+          <p className="caption">MAY 2023</p>
         </div>
       </div>
 
