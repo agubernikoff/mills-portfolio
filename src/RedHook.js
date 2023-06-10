@@ -57,7 +57,7 @@ function RedHook() {
         we have an opportunity to grow. To move on. To share and revel in our
         vulnerabilities... it's all we can do
       </p> */}
-      <br></br>
+      {/* <br></br>
       <div style={{ textAlign: "center" }}>
         <em>
           <p>
@@ -101,7 +101,7 @@ function RedHook() {
             Official Selection, <strong>Culver City Film Festival</strong>, 2022
           </p>
         </em>
-      </div>
+      </div> */}
       {/* <div
         className="credits"
         style={{ textAlign: "center", listStyleType: "none" }}
