@@ -20,15 +20,25 @@ function Home() {
       <div className="poster_holder">
         <div className="item">
           <NavLink to="/red_hook">
-            <img src={redhook} className="poster" alt="Red Hook" />
+            <img
+              style={{ aspectRatio: "1/1.25" }}
+              src={redhook}
+              className="poster"
+              alt="Red Hook"
+            />
           </NavLink>
           <p className="caption">SEPTEMBER 2023</p>
         </div>
         <div className="item">
           <NavLink to="/glacial_ways">
-            <img src={glacial} className="poster" alt="Glacial Ways" />
+            <img
+              style={{ aspectRatio: "1/1.25" }}
+              src={glacial}
+              className="poster"
+              alt="Glacial Ways"
+            />
           </NavLink>
-          <p className="caption">AUGUST 2024</p>
+          <p className="caption">DECEMBER 2024</p>
         </div>
       </div>
 
