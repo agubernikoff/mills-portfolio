@@ -162,6 +162,8 @@ a:hover {
 }
 .home {
   min-height: 90vh;
+  display: flex;
+  align-items: center;
 }
 .item > p {
   margin-top: 0;
